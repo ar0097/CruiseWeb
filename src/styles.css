@@ -1,0 +1,19 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.event-section {
+  transition: width 0.3s, box-shadow 0.3s;
+}
+.event-section:hover {
+  width: 350px;
+  height: 450px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
